@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font -- App Router layout.js is equivalent to _document; this is intentional */}
         <link
           href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital@0;1&family=Inter:wght@400;500&display=swap"
           rel="stylesheet"
